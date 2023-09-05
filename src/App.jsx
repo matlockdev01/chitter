@@ -10,6 +10,7 @@ import './App.css';
 //pages
 import Home from './pages/Home';
 import Library from './pages/Library';
+import Deck from './pages/Deck';
 
 //layout
 import RootLayout from './layouts/RootLayout';
@@ -19,6 +20,8 @@ const router = createBrowserRouter(
     <Route path='/' element={<RootLayout />}>
       <Route index element={<Home />} />
       <Route path='library' element={<Library />} />
+      <Route path='deck' element={<Deck />}/>
+      {/* Route path='deck/:id' element=deck ? I want to dynamically create and serve a route for a specific deck id. */}
     </Route>
   )
 )
@@ -30,3 +33,4 @@ function App() {
 }
 
 export default App
+ 

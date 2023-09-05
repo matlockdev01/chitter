@@ -3,7 +3,7 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import DeckButton from './button';
+import DeckButton from './deck-button';
 import Typography from '@mui/material/Typography';
 
 export default function DeckCard() {
